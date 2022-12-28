@@ -96,9 +96,6 @@ def menu_bangundatar():
         else : 
             print("masukkan kode menu dengan benar!")
 
-            
-            
-
 
 def menu_bangunruang():
     while True : 
