@@ -130,7 +130,6 @@ def menu_bangunruang():
             break
         else : 
             print("masukkan kode menu dengan benar!")
-        
 
 def menu_program():
     while True :

@@ -53,7 +53,7 @@ class MenghitungLuas():
             MenghitungLuas.menu("Segitiga")
         else:
             pass
-             
+
     def persegi (input_sisi):
         luas = input_sisi * input_sisi
         print("Luas Persegi :", luas, 'Cm2')

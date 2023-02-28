@@ -13,7 +13,10 @@ class Luas():
         luassegitiga = self.input_alas * self.input_tinggi
         print("Luas Alas Segitiga :", luassegitiga)
         
-        
+    def generate():
+        input_sisi = float(input("Masukkan Sisi :"))
+        persegi = Luas(input_sisi, 0,0,0)
+        Luas.persegi(persegi)
         
     def start():
         print("\n")
@@ -27,15 +30,12 @@ class Luas():
         print("4. kembali ke Menu")
         pilihmenu = input("Masukkan kode Menu :")
         if pilihmenu == '1':
-            while True :
-                input_sisi = float(input("Masukkan Sisi :"))
-                persegi = Luas(input_sisi, 0,0,0)
-                Luas.persegi(persegi)
-                lanjut = input("Lanjut? <y/n> :")
-                if lanjut == "y" or lanjut == "Y" :
-                    pass
-                else :
-                    Luas.start()
+            Luas.generate()
+            lanjut = input("Lanjut? <y/n> :")
+            if lanjut == "y" or lanjut == "Y" :
+                Luas.start()
+            else :
+                pass
         
             
         
